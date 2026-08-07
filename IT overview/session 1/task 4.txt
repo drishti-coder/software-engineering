@@ -1,0 +1,11 @@
+Modern technology companies use different tools for different types of teamwork.
+
+
+Tool                   What it is used for                                               Specific Use Case
+
+GitHub             Managing and reviewing code       A developer uploads code and creates a Pull Request so another developer can review it before it becomes part of the main project.
+
+Slack                 Team communication             A developer can message the AI team in a #ai-project channel to discuss a problem or quickly ask a teammate for help.
+
+Jira              Managing tasks and projects	     A manager can create a ticket such as "Build chatbot login system" and assign it to a developer with a deadline.
+

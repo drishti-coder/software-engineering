@@ -1,0 +1,12 @@
+1. Product Company — Google
+
+Google
+
+Google develops its own AI products and technologies, rather than primarily building software for individual clients. Its AI work includes products such as Gemini, AI features in Search, Google Workspace AI, Google Cloud AI and AI development platforms.
+
+
+2. Service Company — TCS
+
+Tata Consultancy Services
+
+TCS works with business clients and helps them use AI to solve business problems. Its AI work includes enterprise Gen AI, AI-powered customer solutions, banking solutions, supply-chain solutions, data analytics and AI modernization.
