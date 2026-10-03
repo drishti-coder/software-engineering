@@ -1,0 +1,30 @@
+Step 1: Install GCC on Windows
+
+If you are using Windows, an easy option is MinGW-w64.
+
+After installing GCC, open VS Code.
+
+Create a folder
+
+Open this folder in VS Code.
+
+Step 2: Create the file
+
+Write:
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+
+Step 3: Open the VS Code terminal
+
+In VS Code, click:
+
+Terminal → New Terminal
+
+output

@@ -1,0 +1,13 @@
+the browser combines them and displays the final webpage on the user's screen. This entire process is known as rendering.
+
+Some common information stored inside the <head> section includes:
+
+The title of the webpage.
+CSS files.
+JavaScript files.
+Character encoding.
+SEO-related information.
+
+The <body> tag contains all the content that users can see on the webpage.
+
+Everything such as headings, paragraphs, images, buttons, forms, tables, and links is written inside the <body> section.

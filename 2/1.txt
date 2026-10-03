@@ -1,0 +1,30 @@
+             START 
+               ↓
+        Open Zomato App 
+               ↓
+         Select Location 
+               ↓
+         Search for Food 
+               ↓
+         Select Restaurant 
+               ↓
+         Select Food Items 
+                 ↓
+         Add Items to Cart 
+                 ↓
+           Is Order Ready? 
+             /          \
+           Yes           No
+            ↓             
+     Go to Checkout  ←
+            ↓
+       Select Payment 
+            ↓
+         Payment Done? 
+          /        \
+        Yes         No
+         |          
+         ↓           ↓
+  Order Confirmed   Try Payment Again 
+         ↓           
+       ( END ) ←----

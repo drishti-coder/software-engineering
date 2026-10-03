@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int msg;
+
+    printf("No of unread messages: ");
+    scanf("%d",&msg);
+
+    if(msg==0){
+        printf("No new mssgs");
+    }else if(msg==1){
+        printf("You have 1 new msg");
+    }else if(msg<99 && msg>2){
+        printf("You have new messages");
+    }else{
+        printf("99+ new mssgs");
+    }
+    return 0;
+}

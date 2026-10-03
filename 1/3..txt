@@ -1,0 +1,16 @@
+ Difference Between Compiler and Interpreter
+
+A compiler and an interpreter are both used to run programs written by humans. But they work in different ways.
+
+A compiler translates the whole program into machine language before running it. After the program is successfully compiled, it can run. C and C++ are common examples of languages that are usually compiled.
+
+An interpreter reads and runs the program step by step. It does not usually translate the whole program before starting. Python is an example of a language that is commonly described as interpreted.
+
+For example, if we write a Python program, the Python interpreter reads the instructions and executes them. In C, the C compiler first converts the program into a form that the computer can run.
+
+In very simple words:
+
+* Compiler: Translates the complete program first, then runs it.
+* Interpreter: Reads and runs the program step by step.
+
+So, the main difference is how they translate and run the program.

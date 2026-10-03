@@ -1,0 +1,17 @@
+Given pseudocode:
+Input N
+Set sum = 0
+For i = 1 to N
+    Add i to sum
+Output sum
+
+
+ Step          N   i    sum 
+ -----------  -:  -:  -----: 
+ Input N       4   -       - 
+ Set sum = 0   4   -       0 
+ First loop    4   1       1 
+ Second loop   4   2       3 
+ Third loop    4   3       6 
+ Fourth loop   4   4      10 
+ Output sum    4    4     10 

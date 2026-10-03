@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int binarySearch(int arr[], int size, int target)
+{
+    int start = 0;
+    int end = size - 1;
+
+    while (start <= end)
+    {
+        int middle = (start + end) / 2;
+
+        if (arr[middle] == target)
+        {
+            return middle;
+        }
+        else if (target > arr[middle])
+        {
+            start = middle + 1;
+        }
+        else
+        {
+            end = middle - 1;
+        }
+    }
+
+    return -1;
+}
+
+int main()
+{
+    int arr[] = {5, 11, 23, 34, 47, 59, 62, 88};
+    int size = 8;
+    int result;
+
+    result = binarySearch(arr, size, 34);
+
+    printf("Index of 34 = %d\n", result);
+
+    result = binarySearch(arr, size, 50);
+
+    printf("Index of 50 = %d\n", result);
+
+    return 0;
+}

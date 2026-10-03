@@ -1,0 +1,21 @@
+
+
+#include <stdio.h>
+
+struct Song{
+    char title[50];
+    char artist[50];
+    int durationInSeconds;
+};
+
+int main()
+{
+   struct Song song={"Blue Eyes","Badshah",180};
+   
+   printf("Song title: %s\n",song.title);
+    printf("Song artist: %s\n",song.artist);
+     printf("Song duration: %d",song.durationInSeconds);    
+ 
+ 
+    return 0;
+}

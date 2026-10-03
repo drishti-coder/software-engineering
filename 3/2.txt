@@ -1,0 +1,30 @@
+Create a new file called:
+
+my_intro.c
+
+ we can use Instagram.
+
+#include <stdio.h>
+
+int main()
+{
+    printf("My favorite app is Instagram.\n");
+    printf("I wish Instagram could reduce unwanted content better.\n");
+
+    return 0;
+}
+Compile it
+
+Open the terminal in the folder where the file is saved.
+
+Type:
+
+gcc my_intro.c -o my_intro
+
+Then:
+
+.\my_intro
+
+Output
+My favorite app is Instagram.
+I wish Instagram could reduce unwanted content better.
