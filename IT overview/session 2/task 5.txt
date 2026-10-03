@@ -1,0 +1,5 @@
+receive:
+
+'node' is not recognized as the name of a cmdlet
+
+This error means that my computer cannot find Node.js when I try to run the JavaScript file.

@@ -1,0 +1,1 @@
+404 Not Found: This means that the server could not find the requested page or resource. In a food-delivery app, it could happen if a restaurant has been removed or the restaurant page URL is no longer valid.
