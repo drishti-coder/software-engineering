@@ -1,0 +1,6 @@
+ Normal C++                           OOP C++                         
+ --------------------------------     ------------------------------- 
+ Uses arrays and global variables     Uses classes and objects        
+ Simple for a small program           Better for a bigger program     
+ More difficult to add features       Easier to add features          
+ Task information can be separate     Task information stays together 

@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+string tasks[5] = {
+    "Complete homework",
+    "Study C++",
+    "Go to college",
+    "Practice coding",
+    "Read a book"
+};
+
+int main()
+{
+    for (int i = 0; i < 5; i++)
+    {
+        cout << tasks[i] << endl;
+    }
+
+    return 0;
+}

@@ -8,4 +8,4 @@ Data Analyst               Traditional IT          A data analyst studies data t
 AI Engineer                 AI-focused            An AI Engineer builds applications that use artificial intelligence. They may work with chatbots.           ₹4–10 LPA
 
 ML Engineer                 AI-focused            A Machine Learning Engineer develops and deploys machine-learning models. They work with data, 
-                                                     algorithms and programming.                                                                                  ₹4–10 LPA
+                                                     algorithms and programming.                                                                               ₹4–10 LPA
