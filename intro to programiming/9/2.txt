@@ -1,0 +1,77 @@
+#include <stdio.h>
+
+int main(){
+    
+ int row;
+ int column;
+
+ for(int rows=1; rows<=3; rows++){
+    for(int columns=1; columns<=3; columns++){
+       if((rows+columns)%2==0){
+        printf("X ");
+       }else{
+        printf("O ");
+       }
+    }
+    printf("\n");
+ }
+
+    return 0;
+}#include <stdio.h>
+
+int main(){
+    
+ int row;
+ int column;
+
+ for(int rows=1; rows<=3; rows++){
+    for(int columns=1; columns<=3; columns++){
+       if((rows+columns)%2==0){
+        printf("X ");
+       }else{
+        printf("O ");
+       }
+    }
+    printf("\n");
+ }
+
+    return 0;
+}#include <stdio.h>
+
+int main(){
+    
+ int row;
+ int column;
+
+ for(int rows=1; rows<=3; rows++){
+    for(int columns=1; columns<=3; columns++){
+       if((rows+columns)%2==0){
+        printf("X ");
+       }else{
+        printf("O ");
+       }
+    }
+    printf("\n");
+ }
+
+    return 0;
+}#include <stdio.h>
+
+int main(){
+    
+ int row;
+ int column;
+
+ for(int rows=1; rows<=3; rows++){
+    for(int columns=1; columns<=3; columns++){
+       if((rows+columns)%2==0){
+        printf("X ");
+       }else{
+        printf("O ");
+       }
+    }
+    printf("\n");
+ }
+
+    return 0;
+}

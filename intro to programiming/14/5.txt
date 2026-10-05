@@ -1,0 +1,1 @@
+Linear search checks names one by one from the beginning, so it can take more time. For example, if my friend's name is near the end of my contact list, I may have to check many names. Binary search checks the middle name first and then removes half of the list each time. So, in a sorted WhatsApp contact list, binary search can find a name much faster.

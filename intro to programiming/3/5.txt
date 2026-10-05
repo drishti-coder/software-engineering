@@ -1,0 +1,7 @@
+Change printf to prntf
+
+You will normally see an error 
+
+and then a linker error 
+
+then fix to.

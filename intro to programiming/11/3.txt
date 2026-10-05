@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int applyDiscount(int price,int discountPercent){
+    int discount;
+    int finalprice;
+
+    discount=price*discountPercent/100;
+    finalprice=price-discount;
+    return finalprice;
+}
+
+
+int main()
+{ 
+   int result;
+   result=applyDiscount(1000,20);
+   printf("Finalprice=%d",result);
+    return 0;
+}

@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main()
+{
+  char fav[10];
+
+   printf("Enter your fav team: ");
+   scanf("%s",fav);
+
+   switch(fav[0]){
+    case 'M':
+    printf("MI!");
+    break;
+
+    case 'C':
+      printf("CSK!");
+      break;
+
+     case 'R':
+      printf("RCB!");
+      break;
+     
+     case 'G': 
+      printf("GT");
+      break;
+
+     case 'K':
+      printf("KKR");
+      break;
+      
+     default:
+      printf("Team not found!"); 
+   }
+   return 0;
+}

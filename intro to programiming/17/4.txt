@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int followers[4] = {950, 1200, 5400, 15000};
+    int i;
+
+    for (i = 0; i < 4; i++)
+    {
+        if (followers[i] >= 1000)
+        {
+            if (followers[i] % 1000 == 0)
+            {
+                printf("%dK\n", followers[i] / 1000);
+            }
+            else
+            {
+                printf("%.1fK\n", followers[i] / 1000.0);
+            }
+        }
+        else
+        {
+            printf("%d\n", followers[i]);
+        }
+    }
+
+    return 0;
+}

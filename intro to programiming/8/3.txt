@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{ int otp=3214;
+  int attempts=0;  
+  do{
+    printf("Enter your OTP: ");
+    scanf("%d",&otp);
+    if(otp==4321){
+        printf("Correct otp!");
+        break;
+    }else{
+        attempts++;
+    }
+  }while(attempts<3);
+  if(otp!=4321){
+   printf("Maximum attempts reached");
+  }
+  
+    return 0;
+}

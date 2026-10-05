@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+
+void copyCaption(char oldCaption[], char newCaption[])
+{
+    strcpy(newCaption, oldCaption);
+
+    printf("Copied caption: %s", newCaption);
+}
+
+int main()
+{
+    char caption[] = "Enjoying my day!";
+    char copied[100];
+
+    copyCaption(caption, copied);
+
+    return 0;
+}

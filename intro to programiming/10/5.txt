@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int add(int n)
+{
+    int sum = 0;
+    int digit;
+
+    while (n > 0)
+    {
+        digit = n % 10;
+        sum = sum + digit;
+        n = n / 10;
+    }
+
+    return sum;
+}
+
+int main()
+{
+    int n, result;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    result = add(n);
+
+    printf("Sum of digits = %d", result);
+
+    return 0;
+}
