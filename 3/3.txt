@@ -1,0 +1,9 @@
+Now intentionally remove the semicolon from the first printf.
+
+Now save the file and compile again:
+
+You will get an error similar to:
+
+error: expected ';' before 'printf'
+
+Then fix it.

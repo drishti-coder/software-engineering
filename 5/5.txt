@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+   int no;
+
+   printf("enter a no: ");
+   scanf("%d",&no);
+
+   if(no>100 && no%2==0){
+    printf("Big Even.");
+   }else{
+    printf("Not Big even");
+   }
+    return 0;
+}

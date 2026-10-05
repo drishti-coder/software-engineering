@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+
+int isPalindrome(char word[])
+{
+    int i;
+    int length;
+
+    length = strlen(word);
+
+    for (i = 0; i < length / 2; i++)
+    {
+        if (word[i] != word[length - 1 - i])
+        {
+            return 0;
+        }
+    }
+
+    return 1;
+}
+
+int main()
+{
+    char word[100];
+
+    printf("Enter a word: ");
+    scanf("%s", word);
+
+    if (isPalindrome(word))
+    {
+        printf("Palindrome");
+    }
+    else
+    {
+        printf("Not Palindrome");
+    }
+
+    return 0;
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    char name[30];
+    int age;
+    float amount;
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter your last order amount: ");
+    scanf("%f", &amount);
+
+    printf("\nYour Name: %s\n", name);
+    printf("Your Age: %d\n", age);
+    printf("Order Amount: %.2f\n", amount);
+
+    return 0;
+}

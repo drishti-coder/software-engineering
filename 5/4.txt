@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int likes = 0;
+
+    printf("Starting likes: %d\n", likes);
+
+    ++likes;
+    printf("After ++likes: %d\n", likes);
+
+    likes++;
+    printf("After likes++: %d\n", likes);
+
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int even (int no){
+    if(no%2==0){
+        return true; 
+    }else{
+        return false;
+    }
+}
+
+int main()
+{ 
+   printf("%d\n",even(7));
+   printf( "%d\n",even(14));
+    return 0;
+}

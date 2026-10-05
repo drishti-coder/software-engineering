@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int min[7];
+    int i;
+    int total=0;
+    int average;
+    
+    for(int i=1; i<=7; i++){
+        printf("Enter day %d minutes of listening music: ",i);
+        scanf("%d",&min[i]);
+    }
+    for(int i=1; i<=7; i++){
+        total=total+min[i];
+    }
+    average=total/7;
+    
+    printf("total min: %d\n",total);
+    printf("average min: %d",average);
+ 
+
+   
+    return 0;
+}
